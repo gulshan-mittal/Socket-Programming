@@ -1,8 +1,8 @@
 # Socket Programming & HTTP Connection
 
-###How to run code
+### How to run code
 
-- **Part1 - C code ** 
+- **Part1 - C code** 
   - *Server* 
     - `gcc server.c`
     - `./a.out`  `[PORT]`
@@ -87,9 +87,9 @@
 
    3. **Bind:** `int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen);`
 
-   4. **Listen: ** `int listen(int sockfd, int backlog);`
+   4. **Listen:** `int listen(int sockfd, int backlog);`
 
-   5. **Accept: ** `int new_socket= accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);`
+   5. **Accept:** `int new_socket= accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);`
 
       ​
 
